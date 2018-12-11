@@ -1,0 +1,1 @@
+{"level":"info","message":"::1 - - [09/Sep/2018:18:29:12 +0000] \"GET /bower_components/colorbox/example3/colorbox.css HTTP/1.1\" 304 - \"http://localhost:8000/blank\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36\"\n","timestamp":"2018-09-09T18:29:12.637Z"}

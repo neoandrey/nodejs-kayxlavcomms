@@ -1,0 +1,108 @@
+<?php
+        if(session_id() == ''){
+                                session_start();
+                                header("Cache-Control: no-cache, must-revalidate"); // HTTP/1.1
+                                header("Expires: Sat, 26 Jul 2011 05:00:00 GMT");
+                    }
+         require_once('inventory.php');  
+        $page_class ='';
+        $page = get_filter('p')?get_filter('p'):"home";
+        $sub_page = get_filter('s')?get_filter('s'):"home";
+?>
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>KayXlav Communications</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+                <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+        <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+           <!--    <link rel="stylesheet" href="css/demo2.css">
+                <link rel="stylesheet" href="css/demo3.css"> -->
+               <script src="js/jquery-1.11.1.min.js"></script>
+               <script src="assets/js/fontawesome-all.min.js"></script>
+           <?php
+      if ($page =="home"){ ?>
+        
+            <link rel="stylesheet" href="css/jquery.animateSlider.css">
+            <link rel="stylesheet" href="css/font-awesome.css">
+            <link rel="stylesheet" href="css/normalize.css">
+            <link rel="stylesheet" href="css/demo2.css">
+            <link rel="stylesheet" href="assets/css/responsiveslides.css" />
+            
+      <?php } ?>
+    </head>
+    <?php
+ 
+  switch($page){ 
+      case 'home':
+          $page_class = 'homepage';
+      break;
+      case 'aboutus':
+          $page_class = 'left-sidebar';
+   break;
+   default:
+          $page_class = 'homepage';
+  } ?>
+    <body class="<?php print($page_class) ?>">
+		<div id="page-wrapper">
+  <?php
+        include_once('header.php');
+        if($page==="home"){
+            include_once('slider.php');
+           //   include_once('banner.php');
+         ?>    <!-- Main Wrapper -->
+    <div id="main-wrapper" >	
+          <?php
+            include_once('topsection.php');
+            include_once('midsection.php');
+            include_once('bottomsection.php');
+        }else if($page==="aboutus"){
+      switch($sub_page){
+          case 'background':
+            include_once('background.php');
+          break;
+          case 'comp_values':
+            include_once('comp_values.php');
+          break;
+          case 'vision':
+                include_once('vision.php');
+          break;      
+         case 'mission':
+                include_once('mission.php');
+          break;
+          case 'values':
+                include_once('values.php');
+            break;
+                case 'gen_info':
+                include_once('general_information.php');
+            break;
+          default: 
+      include_once($sub_page.'.php');
+      }
+        }
+        ?> 
+    </div>
+         <?php
+       include_once('footer.php');
+    ?>
+        
+       </div>
+  <!--   Scripts  -->
+        <!--<script src="assets/js/jquery3.3.1.min.js"></script>-->
+        <script src="assets/js/popper.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+<!--        <script src="assets/js/jquery.min.js"></script>-->
+        <script src="assets/js/jquery.dropotron.min.js"></script>
+        <script src="assets/js/skel.min.js"></script>
+        <script src="assets/js/skel-viewport.min.js"></script>
+        <script src="assets/js/util.js"></script>
+                    <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+        <script src="assets/js/main.js"></script>
+        <script src="assets/js/responsiveslides.min.js"> </script>
+	</body>
+</html>

@@ -1,0 +1,1 @@
+{"level":"info","message":"::1 - - [10/Sep/2018:17:57:04 +0000] \"GET /img/ajax-loaders/ajax-loader-7.gif HTTP/1.1\" 304 - \"http://localhost:8000/blank\" \"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Mobile Safari/537.36\"\n","timestamp":"2018-09-10T17:57:04.289Z"}

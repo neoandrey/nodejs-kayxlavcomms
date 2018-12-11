@@ -1,0 +1,1 @@
+pageSectionCategory,pages,banners,togglers,sliders,posts,galleryitem,fillers,auditTrail,users,clients,orders,roles,invoices

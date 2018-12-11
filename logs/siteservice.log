@@ -1,0 +1,83 @@
+|02:17:05 02, Sep,2018 | NodeSiteService | nodesiteservice.NodeSiteServiceLogger | log | INFO|> Starting dependent services for site: kayxlavcomms...
+|02:17:05 02, Sep,2018 | NodeSiteService | nodesiteservice.NodeSiteServiceLogger | log |SEVERE|> Creating thread: 1: cmd /c start_mongo_server.cmd
+|02:17:05 02, Sep,2018 | NodeSiteService | nodesiteservice.NodeSiteServiceLogger | log |SEVERE|> Creating thread: 2: cmd /c start_site_http.cmd
+|02:17:05 02, Sep,2018 | NodeSiteService | nodesiteservice.NodeSiteServiceLogger | log | INFO|> 
+|02:17:05 02, Sep,2018 | NodeSiteService | nodesiteservice.NodeSiteServiceLogger | log | INFO|> C:\Users\Mobolaji.Aina\Documents\nodejs\kayxlavcomms>C:\Progra~1\MongoDB\Server\3.4\bin\mongod.exe --dbpath ..\..\..\..\..\MongoDB\datafiles\ --logpath=..\..\..\..\..\MongoDB\logs\mongolog.log  -v --logRotate rename  --logappend -f  ..\..\..\..\..\MongoDB\mongod.conf 
+|02:17:05 02, Sep,2018 | NodeSiteService | nodesiteservice.NodeSiteServiceLogger | log | INFO|> 2018-09-02T01:17:05.983+0100 I CONTROL  [main] ** WARNING: --rest is specified without --httpinterface,
+|02:17:05 02, Sep,2018 | NodeSiteService | nodesiteservice.NodeSiteServiceLogger | log | INFO|> 
+|02:17:05 02, Sep,2018 | NodeSiteService | nodesiteservice.NodeSiteServiceLogger | log | INFO|> 2018-09-02T01:17:05.987+0100 I CONTROL  [main] **          enabling http interface
+|02:17:05 02, Sep,2018 | NodeSiteService | nodesiteservice.NodeSiteServiceLogger | log | INFO|> 
+|02:17:05 02, Sep,2018 | NodeSiteService | nodesiteservice.NodeSiteServiceLogger | log | INFO|> 2018-09-02T01:17:05.990+0100 F CONTROL  [main] Failed global initialization: FileNotOpen: Failed to open "C:\Users\Mobolaji.Aina\Documents\nodejs\kayxlavcomms\..\..\..\..\..\MongoDB\logs\mongolog.log"
+|02:17:05 02, Sep,2018 | NodeSiteService | nodesiteservice.NodeSiteServiceLogger | log | INFO|> 
+|02:17:06 02, Sep,2018 | NodeSiteService | nodesiteservice.NodeSiteServiceLogger | log | INFO|> 
+|02:17:06 02, Sep,2018 | NodeSiteService | nodesiteservice.NodeSiteServiceLogger | log | INFO|> C:\Users\Mobolaji.Aina\Documents\nodejs\kayxlavcomms>pause
+|02:17:27 02, Sep,2018 | NodeSiteService | nodesiteservice.NodeSiteServiceLogger | log | INFO|> Starting dependent services for site: kayxlavcomms...
+|02:17:27 02, Sep,2018 | NodeSiteService | nodesiteservice.NodeSiteServiceLogger | log |SEVERE|> Creating thread: 1: cmd /c start_mongo_server.cmd
+|02:17:27 02, Sep,2018 | NodeSiteService | nodesiteservice.NodeSiteServiceLogger | log |SEVERE|> Creating thread: 2: cmd /c start_site_http.cmd
+|02:17:28 02, Sep,2018 | NodeSiteService | nodesiteservice.NodeSiteServiceLogger | log | INFO|> 
+|02:17:28 02, Sep,2018 | NodeSiteService | nodesiteservice.NodeSiteServiceLogger | log | INFO|> C:\Users\Mobolaji.Aina\Documents\nodejs\kayxlavcomms>C:\Progra~1\MongoDB\Server\3.4\bin\mongod.exe --dbpath ..\..\..\..\..\MongoDB\datafiles\ --logpath=..\..\..\..\..\MongoDB\logs\mongolog.log  -v --logRotate rename  --logappend -f  ..\..\..\..\..\MongoDB\mongod.conf 
+|02:17:28 02, Sep,2018 | NodeSiteService | nodesiteservice.NodeSiteServiceLogger | log | INFO|> 2018-09-02T01:17:28.295+0100 I CONTROL  [main] ** WARNING: --rest is specified without --httpinterface,
+|02:17:28 02, Sep,2018 | NodeSiteService | nodesiteservice.NodeSiteServiceLogger | log | INFO|> 
+|02:17:28 02, Sep,2018 | NodeSiteService | nodesiteservice.NodeSiteServiceLogger | log | INFO|> 2018-09-02T01:17:28.298+0100 I CONTROL  [main] **          enabling http interface
+|02:17:28 02, Sep,2018 | NodeSiteService | nodesiteservice.NodeSiteServiceLogger | log | INFO|> 
+|02:17:43 02, Sep,2018 | NodeSiteService | nodesiteservice.NodeSiteServiceLogger | log | INFO|> 
+|02:17:43 02, Sep,2018 | NodeSiteService | nodesiteservice.NodeSiteServiceLogger | log | INFO|> C:\Users\Mobolaji.Aina\Documents\nodejs\kayxlavcomms>npm start 
+|02:17:47 02, Sep,2018 | NodeSiteService | nodesiteservice.NodeSiteServiceLogger | log | INFO|> 
+|02:17:47 02, Sep,2018 | NodeSiteService | nodesiteservice.NodeSiteServiceLogger | log | INFO|> > kayxlavcomms_webiste@0.0.1 start C:\Users\Mobolaji.Aina\Documents\nodejs\kayxlavcomms
+|02:17:47 02, Sep,2018 | NodeSiteService | nodesiteservice.NodeSiteServiceLogger | log | INFO|> > SET DEBUG=app,app:* & nodemon index.js
+|02:17:47 02, Sep,2018 | NodeSiteService | nodesiteservice.NodeSiteServiceLogger | log | INFO|> 
+|02:17:51 02, Sep,2018 | NodeSiteService | nodesiteservice.NodeSiteServiceLogger | log | INFO|> [33m[nodemon] 1.17.5[39m
+|02:17:51 02, Sep,2018 | NodeSiteService | nodesiteservice.NodeSiteServiceLogger | log | INFO|> [33m[nodemon] to restart at any time, enter `rs`[39m
+|02:17:51 02, Sep,2018 | NodeSiteService | nodesiteservice.NodeSiteServiceLogger | log | INFO|> [33m[nodemon] watching: *.*[39m
+|02:17:51 02, Sep,2018 | NodeSiteService | nodesiteservice.NodeSiteServiceLogger | log | INFO|> [32m[nodemon] starting `node index.js`[39m
+|02:17:59 02, Sep,2018 | NodeSiteService | nodesiteservice.NodeSiteServiceLogger | log | INFO|> Master 24964 is running
+|02:18:01 02, Sep,2018 | NodeSiteService | nodesiteservice.NodeSiteServiceLogger | log | INFO|> name_1
+|02:18:01 02, Sep,2018 | NodeSiteService | nodesiteservice.NodeSiteServiceLogger | log | INFO|> sectionName_1
+|02:18:01 02, Sep,2018 | NodeSiteService | nodesiteservice.NodeSiteServiceLogger | log | INFO|> categoryID_1
+|02:18:01 02, Sep,2018 | NodeSiteService | nodesiteservice.NodeSiteServiceLogger | log | INFO|> sectionID_1
+|02:18:01 02, Sep,2018 | NodeSiteService | nodesiteservice.NodeSiteServiceLogger | log | INFO|> name_1
+|02:18:02 02, Sep,2018 | NodeSiteService | nodesiteservice.NodeSiteServiceLogger | log | INFO|> parentPageID_1
+|02:18:02 02, Sep,2018 | NodeSiteService | nodesiteservice.NodeSiteServiceLogger | log | INFO|> navID_1
+|02:18:02 02, Sep,2018 | NodeSiteService | nodesiteservice.NodeSiteServiceLogger | log | INFO|> Worker 19160 started
+|02:18:02 02, Sep,2018 | NodeSiteService | nodesiteservice.NodeSiteServiceLogger | log | INFO|> Worker 21592 started
+|02:18:02 02, Sep,2018 | NodeSiteService | nodesiteservice.NodeSiteServiceLogger | log | INFO|> Worker 6068 started
+|02:18:02 02, Sep,2018 | NodeSiteService | nodesiteservice.NodeSiteServiceLogger | log | INFO|> Server running at http://localhost:8000/
+|02:18:02 02, Sep,2018 | NodeSiteService | nodesiteservice.NodeSiteServiceLogger | log | INFO|> Server running at http://localhost:8000/
+|02:18:02 02, Sep,2018 | NodeSiteService | nodesiteservice.NodeSiteServiceLogger | log | INFO|> Worker 20716 started
+|02:18:02 02, Sep,2018 | NodeSiteService | nodesiteservice.NodeSiteServiceLogger | log | INFO|> Server running at http://localhost:8000/
+|02:18:02 02, Sep,2018 | NodeSiteService | nodesiteservice.NodeSiteServiceLogger | log | INFO|> Server running at http://localhost:8000/
+|02:20:00 02, Sep,2018 | NodeSiteService | nodesiteservice.NodeSiteServiceLogger | log | INFO|> Starting dependent services for site: kayxlavcomms...
+|02:20:00 02, Sep,2018 | NodeSiteService | nodesiteservice.NodeSiteServiceLogger | log |SEVERE|> Creating thread: 1: cmd /c start_mongo_server.cmd
+|02:20:00 02, Sep,2018 | NodeSiteService | nodesiteservice.NodeSiteServiceLogger | log |SEVERE|> Creating thread: 2: cmd /c start_site_http.cmd
+|02:20:00 02, Sep,2018 | NodeSiteService | nodesiteservice.NodeSiteServiceLogger | log | INFO|> 
+|02:20:00 02, Sep,2018 | NodeSiteService | nodesiteservice.NodeSiteServiceLogger | log | INFO|> C:\Users\Mobolaji.Aina\Documents\nodejs\kayxlavcomms>C:\Progra~1\MongoDB\Server\3.4\bin\mongod.exe --dbpath ..\..\..\..\..\MongoDB\datafiles\ --logpath=..\..\..\..\..\MongoDB\logs\mongolog.log  -v --logRotate rename  --logappend -f  ..\..\..\..\..\MongoDB\mongod.conf 
+|02:20:00 02, Sep,2018 | NodeSiteService | nodesiteservice.NodeSiteServiceLogger | log | INFO|> 2018-09-02T01:20:00.812+0100 I CONTROL  [main] ** WARNING: --rest is specified without --httpinterface,
+|02:20:00 02, Sep,2018 | NodeSiteService | nodesiteservice.NodeSiteServiceLogger | log | INFO|> 
+|02:20:00 02, Sep,2018 | NodeSiteService | nodesiteservice.NodeSiteServiceLogger | log | INFO|> 2018-09-02T01:20:00.815+0100 I CONTROL  [main] **          enabling http interface
+|02:20:00 02, Sep,2018 | NodeSiteService | nodesiteservice.NodeSiteServiceLogger | log | INFO|> 
+|02:20:15 02, Sep,2018 | NodeSiteService | nodesiteservice.NodeSiteServiceLogger | log | INFO|> 
+|02:20:15 02, Sep,2018 | NodeSiteService | nodesiteservice.NodeSiteServiceLogger | log | INFO|> C:\Users\Mobolaji.Aina\Documents\nodejs\kayxlavcomms>npm start 
+|02:20:17 02, Sep,2018 | NodeSiteService | nodesiteservice.NodeSiteServiceLogger | log | INFO|> 
+|02:20:17 02, Sep,2018 | NodeSiteService | nodesiteservice.NodeSiteServiceLogger | log | INFO|> > kayxlavcomms_webiste@0.0.1 start C:\Users\Mobolaji.Aina\Documents\nodejs\kayxlavcomms
+|02:20:17 02, Sep,2018 | NodeSiteService | nodesiteservice.NodeSiteServiceLogger | log | INFO|> > SET DEBUG=app,app:* & nodemon index.js
+|02:20:17 02, Sep,2018 | NodeSiteService | nodesiteservice.NodeSiteServiceLogger | log | INFO|> 
+|02:20:18 02, Sep,2018 | NodeSiteService | nodesiteservice.NodeSiteServiceLogger | log | INFO|> [33m[nodemon] 1.17.5[39m
+|02:20:18 02, Sep,2018 | NodeSiteService | nodesiteservice.NodeSiteServiceLogger | log | INFO|> [33m[nodemon] to restart at any time, enter `rs`[39m
+|02:20:18 02, Sep,2018 | NodeSiteService | nodesiteservice.NodeSiteServiceLogger | log | INFO|> [33m[nodemon] watching: *.*[39m
+|02:20:18 02, Sep,2018 | NodeSiteService | nodesiteservice.NodeSiteServiceLogger | log | INFO|> [32m[nodemon] starting `node index.js`[39m
+|02:20:24 02, Sep,2018 | NodeSiteService | nodesiteservice.NodeSiteServiceLogger | log | INFO|> Master 25952 is running
+|02:20:27 02, Sep,2018 | NodeSiteService | nodesiteservice.NodeSiteServiceLogger | log | INFO|> sectionID_1
+|02:20:27 02, Sep,2018 | NodeSiteService | nodesiteservice.NodeSiteServiceLogger | log | INFO|> Worker 27128 started
+|02:20:27 02, Sep,2018 | NodeSiteService | nodesiteservice.NodeSiteServiceLogger | log | INFO|> Server running at http://localhost:8000/
+|02:20:27 02, Sep,2018 | NodeSiteService | nodesiteservice.NodeSiteServiceLogger | log | INFO|> sectionName_1
+|02:20:27 02, Sep,2018 | NodeSiteService | nodesiteservice.NodeSiteServiceLogger | log | INFO|> Worker 16836 started
+|02:20:27 02, Sep,2018 | NodeSiteService | nodesiteservice.NodeSiteServiceLogger | log | INFO|> Server running at http://localhost:8000/
+|02:20:27 02, Sep,2018 | NodeSiteService | nodesiteservice.NodeSiteServiceLogger | log | INFO|> navID_1
+|02:20:27 02, Sep,2018 | NodeSiteService | nodesiteservice.NodeSiteServiceLogger | log | INFO|> name_1
+|02:20:27 02, Sep,2018 | NodeSiteService | nodesiteservice.NodeSiteServiceLogger | log | INFO|> Worker 27868 started
+|02:20:27 02, Sep,2018 | NodeSiteService | nodesiteservice.NodeSiteServiceLogger | log | INFO|> Server running at http://localhost:8000/
+|02:20:27 02, Sep,2018 | NodeSiteService | nodesiteservice.NodeSiteServiceLogger | log | INFO|> Worker 21960 started
+|02:20:27 02, Sep,2018 | NodeSiteService | nodesiteservice.NodeSiteServiceLogger | log | INFO|> Server running at http://localhost:8000/
+|02:20:27 02, Sep,2018 | NodeSiteService | nodesiteservice.NodeSiteServiceLogger | log | INFO|> parentPageID_1
+|02:20:27 02, Sep,2018 | NodeSiteService | nodesiteservice.NodeSiteServiceLogger | log | INFO|> categoryID_1
+|02:20:27 02, Sep,2018 | NodeSiteService | nodesiteservice.NodeSiteServiceLogger | log | INFO|> name_1

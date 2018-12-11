@@ -1,0 +1,27 @@
+<div class="modal hide fade" id="myModal">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" id="close-dialog-cross">×</button>
+                                <span id="dialog-header-span"><h3><%-siteName%></h3></span>
+			</div>
+			<div class="modal-body" id="dialog-message-div">
+				<p><%-siteName%></p>
+			</div>
+			<div class="modal-footer" id="dialog-footer-div">
+			       <a href="#" class="btn" data-dismiss="modal" id="dialog-close-bttn">Close</a>
+                        <span id="dialog-bttns" style="display:none"> </span>        
+			</div>
+            </div>              
+                        <span style="display:none">
+                        <form name="utility_form" id="utility-form">
+                                <input type="hidden" name="is_confirmed" id="is-confirmed" value="" />
+                                <input type="hidden" name="site_logo" id="site-logo" value="<%=logo%>" />
+                                <input type="hidden" name="start_time" id="start-time" value="<%=$time%>" />
+                                <input type="hidden" name="time_out" id="time-out" value="<%=timeOut%>" />
+                                <input type="hidden" name="end_time" id="end-time" value="" />
+                                <input type="hidden" name="user_name" id="user-name" value="<%=userName%>" />
+                                <input type="hidden" name="user_serial" id="user-serial" value="<%=userCode%>" />
+                                <input type="hidden" name="previous_dest" id="previous-dest" value="<%=previousurl%>" />
+                      
+                       </form>
+                        </span>
+				</div>
