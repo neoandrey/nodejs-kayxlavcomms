@@ -81,3 +81,12 @@
 |02:20:27 02, Sep,2018 | NodeSiteService | nodesiteservice.NodeSiteServiceLogger | log | INFO|> parentPageID_1
 |02:20:27 02, Sep,2018 | NodeSiteService | nodesiteservice.NodeSiteServiceLogger | log | INFO|> categoryID_1
 |02:20:27 02, Sep,2018 | NodeSiteService | nodesiteservice.NodeSiteServiceLogger | log | INFO|> name_1
+|11:30:43 17, Dec,2018 | NodeSiteService | nodesiteservice.NodeSiteServiceLogger | log | INFO|> Starting dependent services for site: kayxlavcomms...
+|11:30:43 17, Dec,2018 | NodeSiteService | nodesiteservice.NodeSiteServiceLogger | log |SEVERE|> Creating thread: 1: cmd /c start_mongo_server.cmd
+|11:30:43 17, Dec,2018 | NodeSiteService | nodesiteservice.NodeSiteServiceLogger | log |SEVERE|> Creating thread: 2: cmd /c start_kayxlav.cmd
+|11:30:43 17, Dec,2018 | NodeSiteService | nodesiteservice.NodeSiteServiceLogger | log | INFO|> 
+|11:30:43 17, Dec,2018 | NodeSiteService | nodesiteservice.NodeSiteServiceLogger | log | INFO|> C:\Users\Mobolaji.Aina\Documents\nodejs\kayxlavcomms>C:\Progra~1\MongoDB\Server\3.4\bin\mongod.exe --dbpath ..\..\..\..\..\MongoDB\datafiles\ --logpath=..\..\..\..\..\MongoDB\logs\mongolog.log  -v --logRotate rename  --logappend -f  ..\..\..\..\..\MongoDB\mongod.conf 
+|11:30:44 17, Dec,2018 | NodeSiteService | nodesiteservice.NodeSiteServiceLogger | log | INFO|> 2018-12-17T11:30:44.528+0100 I CONTROL  [main] ** WARNING: --rest is specified without --httpinterface,
+|11:30:44 17, Dec,2018 | NodeSiteService | nodesiteservice.NodeSiteServiceLogger | log | INFO|> 
+|11:30:44 17, Dec,2018 | NodeSiteService | nodesiteservice.NodeSiteServiceLogger | log | INFO|> 2018-12-17T11:30:44.538+0100 I CONTROL  [main] **          enabling http interface
+|11:30:44 17, Dec,2018 | NodeSiteService | nodesiteservice.NodeSiteServiceLogger | log | INFO|> 

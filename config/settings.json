@@ -1,0 +1,13 @@
+{
+    "settings": {
+        "serverHostName": "127.0.0.1",
+        "serverPortNumber": 9000,
+        "reloadPort": 9001,
+        "siteTitle": "Backup and Restore Management Platform",
+        "siteName": "Bakup and Restore Toolkit",
+        "mongoHostName" : "127.0.0.1",
+        "mongoPortNumber": "27017",
+        "refreshStructure": true,
+        "mongoCollectionName": "kayxlavcoms"
+    }
+} 
