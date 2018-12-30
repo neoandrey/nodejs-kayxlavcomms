@@ -809,8 +809,9 @@ function runMongoDBInitialization() {
             });
         });
 
-        startProcesses();
+
     });
+    startProcesses();
 }
 
 String.prototype.replaceAll = function(search, replacement) {
