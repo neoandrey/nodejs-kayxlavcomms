@@ -50,6 +50,7 @@ var isFirtstRun = true;
 //var genInfo      = readHTMLFile('general_information.html');
 //var mission      = readHTMLFile('mission.html');
 //var values       = readHTMLFile('values.html');
+var startCount = 0;
 
 var sessionInfo = {};
 var runDBInitialization = true;
@@ -79,8 +80,8 @@ function startProcesses() {
         }(initWorkers()));
     } else {
 
-        hostName = "localhost";
-        portNumber = 8000;
+        //hostName = "localhost";
+        // portNumber = 8000;
         startExpressHttpServer(hostName, portNumber);
         console.log(`Worker ${process.pid} started`);
 
@@ -89,8 +90,11 @@ function startProcesses() {
 
 function initWorkers() {
     // Fork workers.
-    for (let i = 0; i < numCPUs; i++) {
-        cluster.fork();
+    if (startCount == 0) {
+
+        for (let i = 0; i < numCPUs; i++) {
+            cluster.fork();
+        }
     }
     cluster.on('exit', (worker, code, signal) => {
         console.log(`worker ${worker.process.pid} terminated`);
