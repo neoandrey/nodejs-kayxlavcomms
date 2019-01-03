@@ -42,7 +42,7 @@ var dashboard = readHTMLFile('dashboard.ejs');
 var pages = [];
 var subPages = [];
 var pageSections = [];
-var isFirtstRun = true;
+var isFirstRun = true;
 //var adminSubFooter     = readHTMLFile('subfooter.html');
 ///var login              = readHTMLFile('login.html');
 //var error              = readHTMLFile('error.html');
@@ -50,12 +50,11 @@ var isFirtstRun = true;
 //var genInfo      = readHTMLFile('general_information.html');
 //var mission      = readHTMLFile('mission.html');
 //var values       = readHTMLFile('values.html');
-var startCount = 0;
 
 var sessionInfo = {};
 var runDBInitialization = true;
-if (isFirtstRun && cluster.isMaster) {
-    isFirtstRun = false;
+if (isFirstRun && cluster.isMaster) {
+    // isFirstRun = false;
     checkCollections(runDBInitialization);
 } else {
     startProcesses();
@@ -90,7 +89,8 @@ function startProcesses() {
 
 function initWorkers() {
     // Fork workers.
-    if (startCount == 0) {
+    if (isFirstRun) {
+        isFirstRun = false;
 
         for (let i = 0; i < numCPUs; i++) {
             cluster.fork();
